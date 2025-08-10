@@ -218,12 +218,30 @@
           <h2 class="ttl-team">Our Team</h2>
           <ul class="team-list">
             <li class="team-list-item">
-              <img
-                src="./images/team/compressed/Card1.jpg"
-                alt="Mark Guerrero"
-                width="264"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/team/avif/img@1x_1.avif,
+                    ./images/team/avif/img@2x_1.avif
+                  "
+                  type="image/avif"
+                />
+                <source
+                  srcset="
+                    ./images/team/diff_density/img@1x_1.jpg 1x,
+                    ./images/team/diff_density/img@2x_1.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  src="./images/team/diff_density/img@1x_1.jpg"
+                  alt="Mark Guerrero"
+                  width="264"
+                  height="260"
+                  loading="lazy"
+                />
+              </picture>
+
               <div class="team-text">
                 <h3 class="title-card">Mark Guerrero</h3>
                 <p class="paragraph">Product Designer</p>
@@ -268,12 +286,29 @@
               </div>
             </li>
             <li class="team-list-item">
-              <img
-                src="./images/team/compressed/Card2.jpg"
-                alt="Tom Ford"
-                width="264"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/team/avif/img@1x_2.avif,
+                    ./images/team/avif/img@2x_2.avif
+                  "
+                  type="image/avif"
+                />
+                <source
+                  srcset="
+                    ./images/team/diff_density/img@1x_2.jpg 1x,
+                    ./images/team/diff_density/img@2x_1.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  src="./images/team/diff_density/img@1x_2.jpg"
+                  alt="Mark Guerrero"
+                  width="264"
+                  height="260"
+                  loading="lazy"
+                />
+              </picture>
               <div class="team-text">
                 <h3 class="title-card">Tom Ford</h3>
                 <p class="paragraph">Frontend Developer</p>
@@ -318,12 +353,29 @@
               </div>
             </li>
             <li class="team-list-item">
-              <img
-                src="./images/team/compressed/Card3.jpg"
-                alt="Camila Garcia"
-                width="264"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/team/avif/img@1x_3.avif,
+                    ./images/team/avif/img@2x_3.avif
+                  "
+                  type="image/avif"
+                />
+                <source
+                  srcset="
+                    ./images/team/diff_density/img@1x_3.jpg 1x,
+                    ./images/team/diff_density/img@2x_3.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  src="./images/team/diff_density/img@1x_3.jpg"
+                  alt="Mark Guerrero"
+                  width="264"
+                  height="260"
+                  loading="lazy"
+                />
+              </picture>
               <div class="team-text">
                 <h3 class="title-card">Camila Garcia</h3>
                 <p class="paragraph">Marketing</p>
@@ -368,12 +420,29 @@
               </div>
             </li>
             <li class="team-list-item">
-              <img
-                src="./images/team/compressed/Card4.jpg"
-                alt="Daniel Wilson"
-                width="264"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/team/avif/img@1x_4.avif,
+                    ./images/team/avif/img@2x_4.avif
+                  "
+                  type="image/avif"
+                />
+                <source
+                  srcset="
+                    ./images/team/diff_density/img@1x_4.jpg 1x,
+                    ./images/team/diff_density/img@2x_1.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  src="./images/team/diff_density/img@1x_4.jpg"
+                  alt="Mark Guerrero"
+                  width="264"
+                  height="260"
+                  loading="lazy"
+                />
+              </picture>
               <div class="team-text">
                 <h3 class="title-card">Daniel Wilson</h3>
                 <p class="paragraph">UI Designer</p>
@@ -429,13 +498,29 @@
           <ul class="portfolio-list">
             <li class="portfolio-item">
               <div class="porfolio-thumb">
-                <img
-                  class="portfolio-img"
-                  src="./images/Portfolio/banking_app_1.jpg"
-                  alt="Banking App"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source
+                    srcset="./images/Portfolio/avif/img@1x_1.avif
+                    ./images/Portfolio/avif/img@2x_1.avif
+                  "
+                    type="image/avif"
+                  />
+                  <source
+                    srcset="
+                      ./images/Portfolio/differ_density/img@1x_1.jpg 1x,
+                      ./images/Portfolio/differ_density/img@2x_1.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <img
+                    class="portfolio-img"
+                    src="./images/Portfolio/differ_density/img@1x_1.jpg"
+                    alt="Banking App"
+                    width="360"
+                    height="300"
+                  />
+                </picture>
+
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -449,12 +534,29 @@
             </li>
             <li class="portfolio-item">
               <div class="porfolio-thumb">
-                <img
-                  src="./images/Portfolio/cashless_payment_2.jpg"
-                  alt="Cashless Payment"
+                 <picture>
+                  <source
+                    srcset="./images/Portfolio/avif/img@1x_2.avif
+                    ./images/Portfolio/avif/img@2x_2.avif
+                  "
+                    type="image/avif"
+                  />
+                  <source
+                    srcset="
+                      ./images/Portfolio/differ_density/img@1x_2.jpg 1x,
+                      ./images/Portfolio/differ_density/img@2x_2.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <img
+                    
+                    src="./images/Portfolio/differ_density/img@1x_2.jpg"
+                     alt="Cashless Payment"
                   width="360"
                   height="300"
-                />
+                  />
+                </picture>
+                
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -468,12 +570,29 @@
             </li>
             <li class="portfolio-item">
               <div class="porfolio-thumb">
-                <img
-                  src="./images/Portfolio/meditation_app_3.jpg"
+                 <picture>
+                  <source
+                    srcset="./images/Portfolio/avif/img@1x_3.avif
+                    ./images/Portfolio/avif/img@2x_3.avif
+                  "
+                    type="image/avif"
+                  />
+                  <source
+                    srcset="
+                      ./images/Portfolio/differ_density/img@1x_3.jpg 1x,
+                      ./images/Portfolio/differ_density/img@2x_3.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <img
+                    
+                    src="./images/Portfolio/differ_density/img@1x_3.jpg"
                   alt="Meditation App"
                   width="360"
                   height="300"
-                />
+                  />
+                </picture>
+                
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -487,12 +606,29 @@
             </li>
             <li class="portfolio-item">
               <div class="porfolio-thumb">
-                <img
-                  src="./images/Portfolio/taxi_service_4.jpg"
-                  alt="Taxi Service"
+                  <picture>
+                  <source
+                    srcset="./images/Portfolio/avif/img@1x_4.avif
+                    ./images/Portfolio/avif/img@2x_3.avif
+                  "
+                    type="image/avif"
+                  />
+                  <source
+                    srcset="
+                      ./images/Portfolio/differ_density/img@1x_4.jpg 1x,
+                      ./images/Portfolio/differ_density/img@2x_4.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <img
+                    
+                    src="./images/Portfolio/differ_density/img@1x_4.jpg"
+                 alt="Taxi Service"
                   width="360"
                   height="300"
-                />
+                  />
+                </picture>
+               
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -506,12 +642,28 @@
             </li>
             <li class="portfolio-item">
               <div class="porfolio-thumb">
-                <img
-                  src="./images/Portfolio/screen_illustrations_5.jpg"
-                  alt="Screen Illustrations"
+                 <picture>
+                  <source
+                    srcset="./images/Portfolio/avif/img@1x_5.avif
+                    ./images/Portfolio/avif/img@2x_3.avif
+                  "
+                    type="image/avif"
+                  />
+                  <source
+                    srcset="
+                      ./images/Portfolio/differ_density/img@1x_5.jpg 1x,
+                      ./images/Portfolio/differ_density/img@2x_5.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <img
+                    
+                    src="./images/Portfolio/differ_density/img@1x_5.jpg"
+                 alt="Screen Illustrations"
                   width="360"
                   height="300"
-                />
+                  />
+              
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -525,12 +677,28 @@
             </li>
             <li class="portfolio-item">
               <div class="porfolio-thumb">
-                <img
-                  src="./images/Portfolio/online_courses_6.jpg"
-                  alt="Online Courses"
+                 <picture>
+                  <source
+                    srcset="./images/Portfolio/avif/img@1x_6.avif
+                    ./images/Portfolio/avif/img@2x_3.avif
+                  "
+                    type="image/avif"
+                  />
+                  <source
+                    srcset="
+                      ./images/Portfolio/differ_density/img@1x_6.jpg 1x,
+                      ./images/Portfolio/differ_density/img@2x_6.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <img
+                    
+                    src="./images/Portfolio/differ_density/img@1x_6.jpg"
+                 alt="Online Courses"
                   width="360"
                   height="300"
-                />
+                  />
+                
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App

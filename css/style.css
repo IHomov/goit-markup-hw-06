@@ -543,8 +543,8 @@ h2 {
     align-items: center;
     background-color: #f4f4fd;
     width: 100%;
-    max-width: 264px; /* Максимальна ширина іконки */
-    height: 112px; /* Висота контейнера для іконки */
+    max-width: 264px;
+    height: 112px;
     border: 1px solid #8e8f99;
     border-radius: 4px;
     margin-bottom: 8px;
@@ -553,9 +553,9 @@ h2 {
 
 .icon {
   display: block;
-  width: 100%; /* Іконка займатиме всю ширину контейнера */
+  width: 100%;
   height: 100%;
-  max-width: 64px; /* Обмежуємо максимальний розмір іконки */
+  max-width: 64px;
 }
 
 /* #endregion Section 1 */
