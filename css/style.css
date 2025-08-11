@@ -523,16 +523,32 @@ h2 {
   text-transform: capitalize;
 }
 
-.title-card {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+.advantages .title-card {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
   text-align: center;
 }
 
+@media screen and (min-width: 768px) {
+  .advantages .title-card {
+    text-align: start;
+  }
+  .container-icons {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .advantages .title-card {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+}
 .container-icons {
   display: none;
 }
@@ -770,7 +786,6 @@ h2 {
 .portfolio-title {
   margin-bottom: 8px;
 }
-
 /* #endregion Section 3 */
 
 /* #region Footer */
